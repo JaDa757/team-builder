@@ -18,7 +18,7 @@ To successfully complete this project, you will need the following technical kno
 
 You have been given a take-home coding assessment as part of the hiring process for a Web Developer position. Your task is to implement a form capable of creating new team members and also editing existing ones.
 
-From the point of view of the data, each team member has `fname`, `lname` and `bio` properties. The form captures these values using two inputs and a textarea.
+From the point of view of the data, each team member has `fname`, `lname` and `bio` properties. The form captures these values using two inputs and a text area.
 
 You have a [detailed mock](https://bloominstituteoftechnology.github.io/W_S7M2_Project/) that shows the desired end result.
 
@@ -58,7 +58,7 @@ You have a [detailed mock](https://bloominstituteoftechnology.github.io/W_S7M2_P
 
 1. We need a state to track the values of the form. This state could be an object with `fname`, `lname` and `bio` keys.
 
-2. Make your inputs and textarea be controlled, by having them take their values from the state we just created.
+2. Make your inputs and text area be controlled, by having them take their values from the state we just created.
 
 3. Implement the `onChange` handler and wire it to the inputs. You have further hints in the comments.
 
